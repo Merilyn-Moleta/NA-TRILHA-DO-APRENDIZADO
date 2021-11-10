@@ -1,0 +1,24 @@
+body
+{
+    background-color: rgb(189, 171, 145);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+  background-color: burlywood;
+  color: rgb(189, 171, 145);
+  text-align: center;
+  font-size: 28px;
+}
+
+h2{
+    color: lightpink;
+}
+
+h3{
+    color: lightgoldenrodyellow;
+}
+
+ ul{
+    color: darkred;
+ }
