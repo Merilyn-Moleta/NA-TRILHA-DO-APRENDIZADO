@@ -24,3 +24,85 @@ h1{
     border: 2px solid darkgray;
     padding: 10px 10px 10px 10px;
 }
+
+p{
+    display: inline;
+    background-color: aliceblue;
+}
+
+span{
+    display: block;
+    background-color: forestgreen;
+}
+
+.box1{
+    position: static;
+    background-color: yellow;
+    width: 400px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+}
+
+.box2{
+    position: relative;
+    background-color: green;
+    width: 400px;
+    height: 50px;
+    bottom: 50px;
+    left: 450px;
+}
+
+.box3{
+    position: absolute;
+    background-color: blue;
+    width: 400px;
+    height: 50px;
+    top: 500px;
+    left: 500px;
+}
+
+.box4{
+    position: fixed;
+    background-color: orange;
+    width: 400px;
+    height: 50px;
+    top: 0px;
+    right: 0px;
+}
+
+.box5{
+    position: sticky;
+    background-color: brown;
+    width: 400px;
+    height: 50px;
+    bottom: 200px;
+    left: 150px;
+}
+
+.layer1{
+    position: relative;
+    background-color: darkcyan;
+    width: 70px;
+    height: 70px;
+    bottom: 0px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.layer2{
+    position: relative;
+    background-color: cadetblue;
+    width: 70px;
+    height: 70px;
+    bottom: 20px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
